@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="post">
+        <h1>Registration Form</h1>
+        <br>
+        <p>Enter Your Details below</p>
+        <br>
+        <div class="input-part">
+            <ul>
+                <li>
+                    <input type="text" placeholder="Your_email@gmail.com">
+                </li><br>
+                <li>
+                    <input type="text" placeholder="Your_email@gmail.com">
+                </li>
+            </ul>
+        </div>
+        <br>
+        <p>!Type a complex password with 8-20 charactors.</p><br>
+            <div class="input-part">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="+20 Phone Number">
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <h2>Enter your profession:</h2>
+            <br>
+            <div class="input-part">
+                <ul>
+                    <li>
+                        <input type="radio" value="Student">
+                        <label for="">Student</label>
+                        <input type="radio" value="Student">
+                        <label for="">Teacher</label>
+                        <input type="radio" value="Student">
+                        <label for="">Developer</label>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <p class="course">Choose the stage if you are (student) <span><select name="course" id="course">
+                <option value="first Primary">first primary</option>
+                <option value="seond Primary">second primary</option>
+                <option value="third Primary">third primary</option>
+                <option value="fourth Primary">fourth primary</option>
+
+            </select></span></p>
+            <hr>
+            <br>
+            <div class="input-part ">
+                <ul>
+                    <li>
+                       Enter your Birth date <input type="date">
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="input-part">
+                <ul>
+                    <li>
+                       <input type="text" placeholder="Any Notes">
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <hr>
+            <div class="input-part btn">
+               <input type="submit">
+               <input type="reset">
+        </form>
+    </div>
+
+</body>
+</html>
